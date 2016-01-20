@@ -10,7 +10,15 @@
     "constellation",
     "date"
   ],
-  "author": "Thomas Lau <thomas_0836@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasLiu/constellation"
+  },
+  "author": {
+    "name": "Thomas Lau",
+    "email": "thomas_0836@qq.com",
+    "url": "https://github.com/ThomasLiu"
+  },
   "license": "MIT",
   "dependencies": {
     "moment": "^2.11.1"
