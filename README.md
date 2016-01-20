@@ -2,7 +2,10 @@
 change date to constellation
 ***
 
-```
+> npm i --save get-constellation
+
+### test
+```javascript
 it('should equal 魔羯座 when n ===  number 12.22', function () {
         constellation.getText(12.22).should.equal('魔羯座');
     });
@@ -18,8 +21,8 @@ it('should equal 魔羯座 when n ===  number 12.22', function () {
         constellation.getText('a').should.equal('神奇宝贝');
     });
 ```
-***
-```
+### language
+```javascript
 var languageObj = {
     ch : [
         '魔羯座'//12.22-1.19
