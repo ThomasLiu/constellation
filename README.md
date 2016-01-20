@@ -1,6 +1,25 @@
 # constellation
 change date to constellation
+***
 
+```
+it('should equal 魔羯座 when n ===  number 12.22', function () {
+        constellation.getText(12.22).should.equal('魔羯座');
+    });
+    it('should equal 魔羯座 when n === string 12.22', function () {
+        constellation.getText('12.22').should.equal('魔羯座');
+    });
+    it('should equal 魔羯座 when n === date Date("2016/12/22")', function () {
+        var date = new Date('2016/12/22');
+        constellation.getText(date).should.equal('魔羯座');
+    });
+    it('should equal 神奇宝贝 when n === a', function () {
+
+        constellation.getText('a').should.equal('神奇宝贝');
+    });
+```
+***
+```
 var languageObj = {
     ch : [
         '魔羯座'//12.22-1.19
@@ -31,3 +50,4 @@ var languageObj = {
             ,'Sagittarius'//11.23-12.21
         ]
 };
+```
