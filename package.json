@@ -1,5 +1,5 @@
 {
-  "name": "constellation",
+  "name": "get-constellation",
   "version": "1.0.0",
   "description": "change date to constellation",
   "main": "index.js",
