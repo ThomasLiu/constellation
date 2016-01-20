@@ -1,0 +1,23 @@
+{
+  "name": "constellation",
+  "version": "1.0.0",
+  "description": "change date to constellation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "constellation",
+    "date"
+  ],
+  "author": "Thomas Lau <thomas_0836@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.11.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.2",
+    "mocha": "^2.3.4",
+    "should": "^8.1.1"
+  }
+}
